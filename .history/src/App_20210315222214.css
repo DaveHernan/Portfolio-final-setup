@@ -180,10 +180,6 @@ nav ul li{
 }
 
 /**************Experience*****************/
-.experience{
-  padding: 0.7rem;
-}
-
 .experience-wrapper{
   position: relative;
   padding: 3.125rem 0;
@@ -241,7 +237,7 @@ nav ul li{
   direction: ltr;
 }
 
-.timeline-content h3{
+.timeline-content{
   margin-top: .3125rem;
   color: var(--primary-red);
   font-weight: 900;
@@ -262,31 +258,12 @@ nav ul li{
     font-size: 1.5rem;
   }
 
-  .experience-wrapper::before{
-    left: 0.5rem;
-    margin-bottom: 1.875rem;
-  }
-
-  .timeline-block-right{
-    float: none;
-    width: 100%;
-
-  }
-
-  .timeline-block-left{
-    float: none;
-    direction: ltr;
-    width: 100%;
-  }
-
-
-
 }
 
 @media(max-width: 480px ){
   .author-picture{
     width: 20rem;
-    height: 20rem;
+  height: 20rem;
  
   }
 }

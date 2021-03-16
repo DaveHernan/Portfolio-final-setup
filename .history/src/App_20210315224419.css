@@ -180,10 +180,6 @@ nav ul li{
 }
 
 /**************Experience*****************/
-.experience{
-  padding: 0.7rem;
-}
-
 .experience-wrapper{
   position: relative;
   padding: 3.125rem 0;
@@ -278,8 +274,6 @@ nav ul li{
     direction: ltr;
     width: 100%;
   }
-
-
 
 }
 

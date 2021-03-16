@@ -179,78 +179,6 @@ nav ul li{
   background:var(--primary-white);
 }
 
-/**************Experience*****************/
-.experience{
-  padding: 0.7rem;
-}
-
-.experience-wrapper{
-  position: relative;
-  padding: 3.125rem 0;
-  overflow: hidden;
-}
-
-.experience h1{
-  text-transform: uppercase;
-  color: var(--primary-orange);
-}
-
-.experience-wrapper::before{
-  position: absolute;
-  content:"";
-  top: 0;
-  left: 50%;
-  margin-left: -0.0625rem;
-  width: .0125rem;
-  height: 100%;
-  background: var(--primary-grey);
-  z-index: 1;
-}
-
-
-.timeline-block{
-  width: calc(50% + 0.5rem);
-  display: flex;
-  justify-content: space-between;
-  clear: both;
-}
-
-.timeline-block-right{
-  float: right
-}
-
-.timeline-block-left{
-  float: left;
-  direction: rtl;
-}
-
-.marker{
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  border: 0.3125rem solid var(--primary-dark);
-  background: var(--primary-orange);
-  margin-top: 0.625rem;
-  z-index: 3;
-}
-
-.timeline-content{
-  width: 95%;
-  padding: 0 0.0375rem;
-  color: var(--primary-dark-grey);
-  direction: ltr;
-}
-
-.timeline-content h3{
-  margin-top: .3125rem;
-  color: var(--primary-red);
-  font-weight: 900;
-}
-
-
-
-
-
 @media(max-width: 760px ){
   .particles-canvas{
     display: none;
@@ -262,31 +190,12 @@ nav ul li{
     font-size: 1.5rem;
   }
 
-  .experience-wrapper::before{
-    left: 0.5rem;
-    margin-bottom: 1.875rem;
-  }
-
-  .timeline-block-right{
-    float: none;
-    width: 100%;
-
-  }
-
-  .timeline-block-left{
-    float: none;
-    direction: ltr;
-    width: 100%;
-  }
-
-
-
 }
 
 @media(max-width: 480px ){
   .author-picture{
     width: 20rem;
-    height: 20rem;
+  height: 20rem;
  
   }
 }
